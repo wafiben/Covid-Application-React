@@ -7,8 +7,8 @@ import { Component } from 'react';
 import ReactDOM from 'react-dom';
 import styles from './Cards.module.css';
 import cx from  'classnames';
-const Cards=({data:{confirmed,recovered,deaths,lastUpdate}})=>{
-   // console.log(data);
+const Cards=({details:{confirmed,recovered,deaths,lastUpdate}})=>{
+   // console.log(details);
     console.log(confirmed)
     console.log(recovered)
    console.log(lastUpdate) 
